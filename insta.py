@@ -54,7 +54,7 @@ class insta:
              
              
 class Account:
-    def _init_(self,username,password):
+    def __init__(self,username,password):
         self.username=username
         self.password=password
         self.following=[0,[]]
