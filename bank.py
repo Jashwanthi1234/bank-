@@ -43,7 +43,7 @@ class Bank:
              self.d[reciever][3].append(value)
              print("Transaction successfull")
 class Account:
-    def _init_(self,username,password):
+    def __init__(self,username,password):
         self.username=username
         self.password=password
         self.bal=0
